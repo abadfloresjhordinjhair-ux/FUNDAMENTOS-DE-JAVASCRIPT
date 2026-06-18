@@ -1,6 +1,4 @@
-// ===============================
-// FASE 2: VARIABLES Y LITERALES
-// ===============================
+
 
 let edad = 20;
 let esEstudiante = true;
@@ -17,9 +15,6 @@ document.getElementById("tipo").innerHTML =
 `Edad: ${typeof edad} | Estudiante: ${typeof esEstudiante}`;
 
 
-// ===============================
-// FASE 3: CADENAS Y PLANTILLAS
-// ===============================
 
 let nombre = prompt("¿Cómo te llamas?");
 
@@ -28,9 +23,6 @@ let saludo = `Hola ${nombre}, tienes ${edad} años`;
 document.getElementById("saludo").innerHTML = saludo;
 
 
-// ===============================
-// FASE 4: IF ELSE
-// ===============================
 
 let gusto = prompt("¿Te gusta el chocolate? (si/no)");
 
@@ -41,9 +33,7 @@ if (gusto === "si") {
 }
 
 
-// ===============================
-// SWITCH
-// ===============================
+
 
 let opcion = prompt("Elige una opción (1,2,3)");
 
@@ -65,9 +55,6 @@ switch (opcion) {
 }
 
 
-// ===============================
-// FASE 5: BUCLE FOR
-// ===============================
 
 let texto = "";
 
@@ -77,10 +64,6 @@ for (let i = 0; i < 10; i++) {
 
 document.getElementById("bucle").innerHTML = texto;
 
-
-// ===============================
-// MOSTRAR CONSTANTES
-// ===============================
 
 document.getElementById("resultadoConst").innerHTML =
 `PI: ${PI} <br> Universidad: ${UNIVERSIDAD}`;
